@@ -1,0 +1,60 @@
+.formContainer {
+    max-width: 300px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #777;
+    padding: 10px 10px;
+}
+.formContainer input[type='submit'] {
+    border-radius: 8px;
+    border: none;
+    min-width: 100px;
+    min-height: 2.3em;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #646cff;
+    color: white;
+}
+.formContainer input[type='submit']:hover {
+    background-color: #4851f4;
+}
+.formContainer input[type='submit'][disabled] {
+    background-color: grey;
+}
+.formContainer input[type='submit']:hover[disabled] {
+    background-color: grey;
+}
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.formControl span {
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: 1em;
+}
+.formControl input {
+    padding: .7em;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+.errorMessage {
+    font-size: smaller;
+    font-style: italic;
+    background-color: rgba(241, 0, 0, 0.186);
+    padding: 5px;
+    box-shadow: rgba(255, 0, 0, 0.267) 0px 0px 10px 0px;
+    border-radius: 5px;
+}
+.leftIndent {
+    text-align: left;
+    font-size: small;
+    
+}
+.leftIndent p {
+    margin-bottom: 0;
+}

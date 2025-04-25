@@ -1,0 +1,27 @@
+.postForm {
+    margin: 0 30px;
+}
+.postForm input {
+    padding: 10px;
+    border-radius: 10px;
+}
+.postForm input[type=file] {
+    padding: 0;
+    border-radius: 0;
+}
+.postControl {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 70vw;
+}
+.postControl textarea{
+    padding: 10px;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.postBtn {
+    margin: 20px 0;
+    display: flex;
+    align-items: start;
+}

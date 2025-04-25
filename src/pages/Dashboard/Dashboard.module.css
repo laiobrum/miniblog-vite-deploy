@@ -1,0 +1,29 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.dashboardPost {
+    width: 80vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1.5rem;
+    border-bottom: 1px solid #afafaf;
+    text-align: start;
+}
+.dashboardPost img {
+    width: 100%;
+    margin: 20px 0;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width:fit-content;
+}
